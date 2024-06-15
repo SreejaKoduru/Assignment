@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical places in India</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <style>
+
+        body{
+            background-color: rgb(38, 30, 73);
+            background-size:auto;
+            margin: 0%;
+            margin-top: 20px;
+        }
+        a{
+            color: rgb(158, 131, 81);
+        }
+        .heading{
+            color: aliceblue;
+        }
+        #header{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+            border-radius: 10px;
+            padding: 10px;
+            color: rgb(158, 131, 81);
+        
+        }
+        #header:hover{
+            color: rgb(158, 131, 81);
+            background-color:  rgb(255, 255, 255);
+            border-bottom: 4px solid rgb(158, 131, 81);
+            padding: 10px;
+        
+        }
+
+        #maindiv1{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            border-radius: 100px;
+        }
+        .short{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        #maindiv2{
+            display:flex;
+            flex-direction: column;
+            border-radius: 100px;
+        }
+        .inner{
+            display: flex;
+            flex-direction: row;
+        }
+        p{
+            margin: 50px;
+            font-size:larger;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+        .place{
+        margin-top: 50px;
+        margin: 25px;
+        border-radius:25px ;
+        }
+        .pic{
+            margin: 5px;
+            border-radius:25px ;
+        }
+        .container{
+            width:1300px;
+            height: 700px;
+            margin:50px;
+            padding-left: 0px;
+            background-color: antiquewhite;
+            border-radius:50px;
+            box-shadow: 0px 0px 10px 10px  grey;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+        }
+        .container:hover{
+            animation: shake 2s ;
+        }
+        @keyframes shake {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes zoom {
+            from{transform: scale(1);}
+            to{transform: scale(1.1);}
+        }
+        @keyframes anim {
+            from{color: rgb(244, 241, 237);}
+            to{color:brown;}
+        }
+        #case{
+            width: 250px;
+            height: 250px;
+            border: 1px solid;
+            border-radius: 10%;
+            background-color:white ;}
+
+        #case:hover{
+            animation-name: zoom;
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+        }
+        .select{
+            margin: 1px;
+            font-size:larger;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+        h1{
+            font-size: xx-large;
+            word-spacing: 10px;
+            padding-left: 25px;
+            color: black;
+        
+        }
+
+        .click{
+            animation: anim 1s infinite;
+        }
+
+        .foot{
+            margin: 0px;
+        }        
+        ul{
+            margin: 0px;
+        }
+        footer{
+            color: black;
+            background-color:white;
+            margin: 0px;
+        }
+
+
+    </style>
+    
+</head>
+<body>
+    <nav style=" word-spacing: 1cap ;color:white" >
+
+        <a  id="header"  href="">About</a>
+        <a   id="header" href="">Photos</a>
+        <a   id="header" href="">Contact</a>
+    </nav>
+   <hr>
+    <h1 class="heading">HISTORICAL  PLACES   IN   INDIA</h1>
+   
+    <div id ="maindiv1">
+        <div class="short">
+            <a href="#a">
+                <div id="case">
+                    <img src="https://th-thumbnailer.cdn-si-edu.com/eBP1w0wGm1n7tZ4XtovPdnvxDOg=/800x800/filters:focal(1471x1061:1472x1062)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/b6/30/b630b48b-7344-4661-9264-186b70531bdc/istock-478831658.jpg" width="240px" height="200px" class="pic">
+                     <p class="select">
+                        Taj Mahal
+                    </p>
+                </div>
+            </a>
+
+            <a href="#b">
+                <div id="case">
+                    <img src="https://media2.thrillophilia.com/images/photos/000/383/700/original/1651645919_shutterstock_1418802812.jpg?w=753&h=450&dpr=1.0"width="240px" height="200px" class="pic">
+                    <p class="select">
+                         Agra Fort
+                    </p>
+                </div>
+            </a>
+
+            <a href="#c">
+                <div id="case">
+                    <img src="https://media2.thrillophilia.com/images/photos/000/383/701/original/1651646427_shutterstock_418380280.jpg?w=753&h=450&dpr=1.0" width="240px" height="200px" class="pic">
+                     <p class="select">
+                        Red Fort
+                    </p>
+                </div>
+            </a>
+
+            <a href="#d">
+                <div id="case">
+                    <img src="https://media2.thrillophilia.com/images/photos/000/383/702/original/1651646655_shutterstock_441171835.jpg?w=753&h=450&dpr=1.0" width="240px" height="200px" class="pic">
+                     <p class="select">
+                        Qutub Minar
+                    </p>
+                </div>
+            </a>
+
+            <a href="#e">
+                <div id="case">
+                    <img src="https://media2.thrillophilia.com/images/photos/000/383/703/original/1651646880_shutterstock_1078858838.jpg?w=753&h=450&dpr=1.0" width="240px" height="200px" class="pic">
+                     <p class="select">
+                        Fatehpur Sikri
+                    </p>
+                </div>
+            </a>            
+        </div>
+        
+        <br><br>
+       
+        <div class="short">
+            <a href="#f">
+                <div id="case">
+                    <img src="https://media2.thrillophilia.com/images/photos/000/383/704/original/1651647055_shutterstock_173584238.jpg?w=753&h=450&dpr=1.0g" width="240px" height="200px" class="pic">
+                     <p class="select">
+                        Hawa Mahal
+                    </p>
+                </div>
+            </a>
+
+            <a href="#g">
+                <div id="case">
+                    <img src="https://media2.thrillophilia.com/images/photos/000/383/705/original/1651647391_shutterstock_1100136929.jpg?w=753&h=450&dpr=1.0" width="240px" height="200px" class="pic">
+                     <p class="select">
+                        Victoria Memorial
+                    </p>
+                </div>
+            </a>
+
+            <a href="#h">
+                <div id="case">
+                    <img src="https://media2.thrillophilia.com/images/photos/000/383/706/original/1651647716_shutterstock_1311074936.jpg?w=753&h=450&dpr=1.0" width="240px" height="200px" class="pic">
+                     <p class="select">
+                        Humayun’s Tomb
+                    </p>
+                </div>
+            </a>
+
+            <a href="#i">
+                <div id="case">
+                    <img src="https://media2.thrillophilia.com/images/photos/000/383/707/original/1651648001_shutterstock_1364029607.jpg?w=753&h=450&dpr=1.0" width="240px" height="200px" class="pic">
+                     <p class="select">
+                        Khajuraho Temples
+                    </p>
+                </div>
+            </a>
+
+            <a href="#j">
+                <div id="case">
+                    <img src="https://media2.thrillophilia.com/images/photos/000/383/716/original/1651650884_shutterstock_789617782.jpg?w=753&h=450&dpr=1.0" width="240px" height="200px" class="pic">
+                     <p class="select">
+                        Amer Fort
+                    </p>
+                </div>
+            </a> 
+        </div>
+    <div >
+        <div>
+            <h1 class="click" style="text-align: center; color: blueviolet;">click on the place to know more</h1>
+        </div>
+
+            <h1 class="heading">List of World Heritage Sites in India</h1>
+        
+            <p style="color: aliceblue;">Taj Mahal, Agra Fort, Red Fort, Qutub Minar, Fatehpur Sikri, Hawa Mahal, Victoria Mahal, Humayun’s Tomb, Khajuraho Temples, Jallianwala Bagh, Sanchi Stupa, Meenakshi Amman Temple, Golden Temple, Elephanta Caves, and many more.
+
+                <br><br>Soaked in hundreds of years’ worth of stories, the rich culture and traditions and of course, beliefs, are some of the best historical places in India, which have attracted people from far and wide to this beautiful land. Whether it is the myriad of palaces and forts, ancient minarets, or even the stunning temples, mosques and churches, you can find historical places of all kinds, which also make it an even more exciting place to explore and learn about.
+                
+               <br><br> Some of the top 10 historical places in India include the famous Taj Mahal in Agra, which is also amongst the seven wonders of the world. Or, to get transported to the times of the British Raj, pay a visit to the Victoria Memorial in Kolkata, and see the opulence of the bygone eras. For a more tranquil experience, the Golden Temple of Amritsar is the best place to be, where you can not only soak in the calmness, but also see the delicate craftsmanship on stone and marble. So, if you are a travel and history buff, who wants a peek into the architectural and cultural history of this beautiful country, you must visit the following famous historical places in India.</p>
+
+        <br><br><br><br><br><br><br>
+        
+    <div id="maindiv2">
+       
+       
+        <div id="a" class="container ">
+            <div>
+                <h1 style="text-align: center;">
+                    Taj Mahal
+                </h1>
+            </div>
+            <div class="inner">
+                    <div >
+                        <img  class="place" src="https://media2.thrillophilia.com/images/photos/000/383/699/original/1651645541_shutterstock_1662357571.jpg?w=753&h=450&dpr=1.0">
+                    </div>
+                    <div class="text">
+                         <p>
+                            One of the most famous historical sites in India, the Taj Mahal of Agra dates back to the 17th century. It was built by Shah Jahan, the Mughal emperor, in the memory of Mumtaz Mahal, his third wife. It is also the abode of the tomb of Shah Jahan himself.
+
+                            The Taj Mahal has intricate carvings and is made entirely of white marble, on the southern banks of the Yamuna River. It is also one of the Seven Wonders of the World.
+                            
+
+                            <br><br>
+                            <b>Entry fee:</b> INR 45 (Indians), INR 1,050 (foreigners), INR 535 (SAARC and BIMSTEC), INR 200 (for every tourist who wishes to enter the mausoleum), FREE (for children below 15 years)
+
+                            <br><br>
+                            <b>Timings:</b> 06:00 a.m. to 06:30 p.m. (Closed on Fridays)
+                            <br><br>
+                            <a style="text-align: right;display: block;" href="#header">back to Top</a>
+                        </p>
+                    </div>
+            </div>
+        </div>
+       
+       
+        <div id="b" class="container ">
+            <div>
+                <h1 style="text-align: center;">
+                    Agra Fort
+                </h1>
+            </div>
+            <div class="inner">
+                <div class="text">
+                    <p>
+                        One of the oldest historical places in India is the Agra Fort, located in Uttar Pradesh. A true example of the stunning Mughal form of architecture, the 16th century Agra Fort was built during Akbar’s reign and has been recognized as a UNESCO World Heritage Site as well.
+
+                        The structure of the fort also has other different styles of architecture, along with intricate marble and sandstone artwork. It is often also called the Lal Qila by the locals.
+
+                    <br><br> 
+                    <b>Entry fee:</b> INR 35 (Indians), INR 550 (Foreigners), INR 35 (SAARC and BIMSTEC), FREE (for children below the age of 15 years)
+
+                        <br><br>
+                        <b>Timings:</b> 06:00 a.m. to 06:00 p.m.
+                        <br><br>
+                        <a style="text-align: right;display: block;" href="#header">back to Top</a>
+                    </p>
+                </div >
+                <div >
+                    <img class="place"  src="https://media2.thrillophilia.com/images/photos/000/383/700/original/1651645919_shutterstock_1418802812.jpg?w=753&h=450&dpr=1.0">
+                </div>
+            </div>
+        </div>
+        
+        
+        <div id="c" class="container ">
+            <div>
+                <h1 style="text-align: center;">
+                    Red Fort
+                </h1>
+            </div>
+            <div class="inner">
+                <div >
+                    <img class="place" src="https://media2.thrillophilia.com/images/photos/000/383/701/original/1651646427_shutterstock_418380280.jpg?w=753&h=450&dpr=1.0">
+                </div>
+                <div class="text">
+                    <p>
+                        When it comes to the famous historical places in India, one cannot miss the Red Fort in Delhi. Also popularly known as the Lal Qila, the Red Fort was constructed during Shah Jahan’s reign in the 17th century.
+
+                        Constructed using huge red sandstone walls in the Mughal style of architecture, the highlights of the Red Fort include its beautiful geometric gardens, magnificent balconies and the opulent entertainment halls.
+
+                        <br><br>
+                        <b>Entry fee:</b> INR 35 (Indians), INR 500 (Foreigners);
+                        For light and sound show: INR 60 on weekdays, INR 80 on weekends (adults), INR 20 on weekdays, INR 30 on weekends (children)
+
+                        <br><br>
+                        <b>Timings:</b> 09:30 a.m. to 04:30 p.m. (Closed on Mondays)
+                        <br><br>
+                        <a style="text-align: right;display: block;" href="#header">back to Top</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div id="d" class="container " >
+            <div>
+                <h1 style="text-align: center;">
+                    Qutub Minar
+                </h1>
+            </div>
+            <div class="inner">
+                <div class="text">
+                    <p>
+                        Delhi’s Qutub Minar ranks amongst the top 10 historical places in India. A UNESCO World Heritage Site, the Qutub Minar, also known as the Victory Tower, is the tallest brick minaret in the whole world, standing tall at a height of 72.5 metres. Built of marble and red sandstone, you can also see many beautiful carvings and intricate designs of the Qutub Minar.
+
+                        The Qutub Minar was built in the late 1100s, to celebrate Muslim Dominance in Delhi, after its last Hindu ruler was defeated. The construction was commenced by Qutab-ud-din Aibak, followed by his successors Iltutmish and Firoz Shah Tughlak. 
+                        
+                        <br><br>
+                        <b>Entry fee:</b> INR 10 (Indians), INR 250 (Foreigners); FREE (for children below 15 years)
+                        
+                        <br><br>
+                        <b>Timings:</b> 07:00 a.m. to 05:00 p.m. 
+                        <br><br>
+                        <a style="text-align: right;display: block;" href="#header">back to Top</a>  
+                    </p>
+                </div>
+                <div >
+                    <img   class="place"  src="https://media2.thrillophilia.com/images/photos/000/383/702/original/1651646655_shutterstock_441171835.jpg?w=753&h=450&dpr=1.0" width="700px" height="550px">
+                </div>
+            </div>
+        </div>
+
+
+        <div id="e" class="container " >
+            <div>
+                <h1 style="text-align: center;">
+                    Fatehpur Sikri
+                </h1>
+            </div>
+            <div class="inner">
+                <div >
+                    <img   class="place"  src="https://media2.thrillophilia.com/images/photos/000/383/703/original/1651646880_shutterstock_1078858838.jpg?w=753&h=450&dpr=1.0">
+                </div>
+                <div class="text">
+                    <p>
+                        An architectural gem and one of the most exquisite historical places in India is Fatehpur Sikri, a town in the Agra district of Uttar Pradesh. A recognized UNESCO World Heritage Site, Fatehpur Sikri is made predominantly out of red sandstone, and dates back to the late 16th century, when it was founded by Mughal Emperor Akbar.
+
+                        Fatehpur Sikri is completely fortified, and as of now, serves as the abode of Jodha Bai’s Palace, Buland Darwaza, Jama Masjid, Ibadat Khana, as well as the Tomb of Salim Chishti and other attractions.
+                        
+                        <br><br>
+                        <b>Entry fee:</b>  INR 40 (Indians), INR 550 (Foreigners); INR 20 (SAARC and BIMSTEC), FREE (for children below 15 years)
+                        
+                        <br><br>
+                        <b>Timings:</b> 06:00 a.m. to 06:00 p.m.   
+                        <br><br>
+                        <a style="text-align: right;display: block;" href="#header">back to Top</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="f" class="container " >
+            <div>
+                <h1 style="text-align: center;">
+                    Hawa Mahal
+                </h1>
+            </div>
+            <div class="inner">
+                <div class="text">
+                    <p>
+                        Hawa Mahal in Jaipur is one of the best historical places in India, in addition to being a prominent landmark of Rajasthan. Dating back to the 18th century, Hawa Mahal is a 5-storey structure that overlooks the bustling streets of Jaipur. It has also been made in a blend of the Rajput, Mughal and Islamic styles of architecture.
+
+                        Built by Maharaja Sawai Pratap Singh, the Hawa Mahal has been constructed in a way such that the small windows here allow winds to enter the palace and keep it cool during the blazing hot summers.
+                        
+                        <br><br>
+                        <b>Entry fee:</b> INR 50 (Indians), INR 200 (Foreigners)
+                        
+                        <br><br>
+                        <b>Timings:</b> 09:00 a.m. to 04:30 p.m.  
+                        <br><br>
+                        <a style="text-align: right;display: block;" href="#header">back to Top</a> 
+                    </p>
+                </div>
+                <div >
+                    <img   class="place"   src="https://media2.thrillophilia.com/images/photos/000/383/704/original/1651647055_shutterstock_173584238.jpg?w=753&h=450&dpr=1.0">
+                </div>
+            </div>
+        </div>
+
+
+        <div id="g" class="container" >
+            <div>
+                <h1 style="text-align: center;">
+                    Victoria Memorial
+                </h1>
+            </div>
+            <div class="inner">
+                <div >
+                    <img   class="place"   src="https://media2.thrillophilia.com/images/photos/000/383/705/original/1651647391_shutterstock_1100136929.jpg?w=753&h=450&dpr=1.0">
+                </div>
+                <div class="text">
+                    <p>
+                        Ranking amongst the top 10 historical places in India, Kolkata’s Victoria Memorial was constructed in honour of Queen Victoria, making it one of the relics of the British Raj. Built entirely out of white marble, the Victoria Memorial is almost a replica of its namesake in London.
+
+                        Surrounded by a well-manicured garden on all sides, it is home to a wide number of sculptures, artwork, statues and more. You can also find a 16-foot-tall bronze statue of the Angel of Victory on top of the central dome of the Victoria Memorial.
+                        
+                        <br><br>
+                        <b>Entry fee:</b>  INR 30 (Indians), INR 500 (Foreigners); INR 100 (SAARC and BIMSTEC), FREE (for school children and army veterans)
+                        
+                        <br><br>
+                        <b>Timings:</b> 11:00 a.m. to 05:00 p.m. (Closed on Mondays)  
+                        <br><br>
+                        <a style="text-align: right;display: block;" href="#header">back to Top</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="h" class="container" >
+            <div>
+                <h1 style="text-align: center;">
+                    Humayun’s Tomb 
+                </h1>
+            </div>
+            <div class="inner">
+                <div class="text">
+                    <p>
+                        Amongst the oldest historical places in India, Humayun’s Tomb in Delhi, along the banks of the Yamuna River, was also the first garden-tomb in the country. Built by Emperor Humayun’s wife in memory of her husband in the 16th century, this monument is surrounded by double-storied gateways and four gardens, and looks simply phenomenal.
+
+                        In addition to the final resting place of Humayun, this place also contains around 150 other tombs. Built of red sandstone, the design of Humayun’s Tomb is similar to the Mughal style of architecture, complete with Persian influences. 
+                        
+                        <br><br>
+                        <b>Entry fee:</b> INR 30 (Indians), INR 500 (Foreigners); INR 30 (SAARC and BIMSTEC)
+                        
+                        <br><br>
+                        <b>Timings:</b> 06:00 a.m. to 06:00 p.m.   
+                        <br><br>
+                        <a style="text-align: right;display: block;" href="#header">back to Top</a>
+                    </p>
+                </div>
+                <div >
+                    <img  class="place"   src="https://media2.thrillophilia.com/images/photos/000/383/706/original/1651647716_shutterstock_1311074936.jpg?w=753&h=450&dpr=1.0">
+                </div>
+            </div>
+        </div>
+
+
+        <div id="i" class="container " >
+            <div>
+                <h1 style="text-align: center;">
+                    Khajuraho Temples
+                </h1>
+            </div>
+            <div class="inner">
+                <div >
+                    <img   class="place"   src="https://media2.thrillophilia.com/images/photos/000/383/707/original/1651648001_shutterstock_1364029607.jpg?w=753&h=450&dpr=1.0">
+                </div>
+                <div class="text">
+                    <p>
+                        The famous Khajuraho Temples in Madhya Pradesh are amongst the top 10 historical places in India, popular for being home to a total of 85 Hindu and Jain temples, spread across three complexes. It is here where you can see intricate rock carvings portraying dance, music, passion and eroticism, in addition to learning about the rich culture of the region during the medieval period.
+
+                        The Khajuraho Temples date back to the 12th century, and are recognized as UNESCO World Heritage Sites.
+                        
+                        <br><br>
+                        <b>Entry fee:</b>  INR 40 (Indians), INR 600 (Foreigners); INR 40 (SAARC and BIMSTEC), FREE (for children below 15 years)
+                        
+                        <br><br>
+                        <b>Timings:</b> 06:00 a.m. to 06:00 p.m.  
+                        <br><br>
+                        <a style="text-align: right;display: block;" href="#header">back to Top</a> 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="j" class="container" >
+            <div>
+                <h1 style="text-align: center;">
+                    Amer Fort
+                </h1>
+            </div>
+            <div class="inner">
+                <div class="text">
+                    <p>
+                        Jaipur’s Amer Fort is another one of the most famous historical places in India. Built by Maharaja Man Singh in the 16th century, this fort is said to be amongst the most ancient monuments in the country. It boasts of intricately carved walls, opulent ceilings, multiple courtyards, as well as stunning entry gates.
+
+                        A recognised UNESCO World Heritage Site, the Amer Fort also houses a museum, garden, restaurant and more. The maze-like passages and serpentine staircases within the fort are some of its main highlights. In the past, the Amer Fort has also served as the main residence of a number of Rajput rulers.
+
+                        
+                        <br><br>
+                        <b>Entry fee:</b> INR 25 (Indians), INR 550 (Foreigners)
+                        
+                        <br><br>
+                        <b>Timings:</b> 08:00 a.m. to 05:30 p.m.  
+                        <br><br>
+                        <a style="text-align: right;display: block;" href="#header">back to Top</a>
+                    </p>
+                </div>
+                <div >
+                    <img  class="place"   src="https://media2.thrillophilia.com/images/photos/000/383/716/original/1651650884_shutterstock_789617782.jpg?w=753&h=450&dpr=1.0">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <footer>
+        <p  class="foot">Follow us  <a style="color: blue;" href="https://www.facebook.com/"> <i class="fa-brands fa-facebook a"></i></a>
+            <a style="color: rgb(233, 25, 157);" href="https://www.bing.com/ck/a?!&&p=42fd781b57a93ffaJmltdHM9MTcxNzcxODQwMCZpZ3VpZD0wMDUxMzcxOC0xNmQwLTYwY2ItMDAzZi0yNDQ2MTcwNTYxYWMmaW5zaWQ9NTQ1Mg&ptn=3&ver=2&hsh=3&fclid=00513718-16d0-60cb-003f-2446170561ac&psq=instagram+login&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS8_aGw9ZW4&ntb=1"><i class="fa-brands fa-instagram a"></i> </a>
+        </p>
+        <hr>
+            <ul type="none">
+                <li >More about us</li>
+                <li> Contact us</li>
+                <li>Locations</li>
+            </ul>
+            <p  style="text-align: end;margin: 0px;">Designed And Developed By Sreeja Koduru</p>
+    </footer>
+
+
+</body>
+</html>
